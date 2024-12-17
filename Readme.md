@@ -1,0 +1,1 @@
+# A Simple smtp mail tester for php

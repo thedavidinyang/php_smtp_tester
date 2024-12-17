@@ -1,0 +1,46 @@
+{
+  "name": "thedavidinyang/phpsimplemail",
+  "type": "library",
+  "description": "A full-featured simple php fluent interface for sending html or plaintext emails via smtp",
+  "homepage": "https://github.com/thedavidinyang/phpsimplemail",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "ext-ctype": "*",
+    "ext-filter": "*",
+    "ext-hash": "*",
+    "phpmailer/phpmailer": "^6.9",
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  },
+  "authors": [
+    {
+      "name": "David Inyang",
+      "email": "davidinyang01@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "php",
+    "php email",
+    "simple email",
+    "smtp",
+    "php smtp",
+    "mail",
+    "php email",
+    "phpsimplemail",
+    "simple email",
+    "simple mail",
+    "phpmailer"
+  ],
+  "autoload": {
+    "psr-4": {
+      "thedavidinyang\\SimpleMail\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+
+}

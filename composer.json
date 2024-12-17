@@ -1,0 +1,5 @@
+{
+    "require": {
+        "thedavidinyang/phpsimplemail": "^1.3"
+    }
+}

@@ -5,7 +5,7 @@ require_once('./vendor/autoload.php');
 
 use thedavidinyang\SimpleMail\Mailer;
 
-$setup = ['host' => 'smtp.zeptomail.com', 'username'=>'emailappsmtp.1729fa1a247ec6d5', 'password'=>'a0Gy1cA9uw2x', 'authentication'=>'tls', 'port'=>'587'  ];
+$setup = ['host' => '', 'username'=>'', 'password'=>'', 'authentication'=>'', 'port'=>''  ];
 
 $e = new Mailer;
 
@@ -14,8 +14,9 @@ $e->init('smtp') ->setup($setup)
 
 ->subject('Welcome')
 
-->to(['name' => 'David Inyang', 'email'=>'david.inyang@easyspend.cc'])
-->from(['name' => 'Easyspend', 'email'=>'noreply@easyspend.cc'])
+->to(['name' => 'David Inyang', 'email'=>'samplemail@gmail.com'])
+
+->from(['name' => 'David Inyang', 'email'=>'samplemail@gmail.com'])
 
 ->body('Hi, welcome to the team')
 

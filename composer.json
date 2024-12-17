@@ -1,2 +1,5 @@
 {
+    "require": {
+        "thedavidinyang/phpsimplemail": "2"
+    }
 }
